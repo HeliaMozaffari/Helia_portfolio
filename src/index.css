@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cute extras */
+@keyframes blink { 50% { opacity: 0; } }
+.animate-blink { animation: blink 1s step-start infinite; }
+
+@keyframes loading-bar { 0% { transform: translateX(-100%);} 100% { transform: translateX(200%);} }
+.animate-loading-bar { animation: loading-bar 2s linear infinite; }
+
+.glass {
+  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.6);
+}
