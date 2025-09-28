@@ -1,7 +1,7 @@
 const projects = [
-  { title: "React tutorial", img: "src/assets/studio_square_thumbnail.jpg", desc: "An ongoing video series teaching REACT.", url: "https://www.youtube.com/watch?v=68zi2Qx-WXA&list=PLxFY7k-uJsBImoIJJgoFt8xEHHXq4iN20" },
-  { title: "Quiz generator", img: "src/assets/mcq.jpg", desc: "This project creates an interactive multiple choice quiz using HTML, CSS and JS.", url: "https://github.com/HeliaMozaffari/Quiz-Project" },
-  { title: "Connext", img: "src/assets/socialmedia.jpg", desc: "This is an app that will unify all your social media accounts in one place .", url: "https://example.com/smart-cart" },
+  { title: "React tutorial", img: "../assets/studio_square_thumbnail.jpg", desc: "An ongoing video series teaching REACT.", url: "https://www.youtube.com/watch?v=68zi2Qx-WXA&list=PLxFY7k-uJsBImoIJJgoFt8xEHHXq4iN20" },
+  { title: "Quiz generator", img: "../assets/mcq.jpg", desc: "This project creates an interactive multiple choice quiz using HTML, CSS and JS.", url: "https://github.com/HeliaMozaffari/Quiz-Project" },
+  { title: "Connext", img: "../assets/socialmedia.jpg", desc: "This is an app that will unify all your social media accounts in one place .", url: "https://example.com/smart-cart" },
 ];
 
 export default function Projects(){
